@@ -90,43 +90,43 @@ git clone https://github.com/guiaramos/website-blocker.git
 
 `1. Open the"Task Scheduler":`
 
-![step1](img\win-setp-1.png)
+![step1](img/win-setp-1.png)
 
 `2. Click on "Create Task":`
 
-![step2](img\win-setp-2.png)
+![step2](img/win-setp-2.png)
 
 3. `Give it a name, check the heighest privileges box and select the windows:` 
 
-![step3](img\win-setp-3.png)
+![step3](img/win-setp-3.png)
 
 4. `Select triggers, new:` 
 
-![step4](img\win-setp-4.png)
+![step4](img/win-setp-4.png)
 
 5. `Select "At Start" and press ok:` 
 
-![step5](img\win-setp-5.png)
+![step5](img/win-setp-5.png)
 
 6. `Select Actions, new:` 
 
-![step6](img\win-setp-6.png)
+![step6](img/win-setp-6.png)
 
 7. `in Actio, select "Start a program":` 
 
-![step7](img\win-setp-7.png)
+![step7](img/win-setp-7.png)
 
 8. Select the file website-blocker-win.pyw:` 
 
-![step8](img\win-setp-8.png)
+![step8](img/win-setp-8.png)
 
 9. `And "OK:` 
 
-![step9](img\win-setp-9.png)
+![step9](img/win-setp-9.png)
 
 3. `Finally, go to conditions and uncheck the box on power section: ` 
 
-![step10](img\win-setp-10.png)
+![step10](img/win-setp-10.png)
 
 ### _Linux and Mac_
 1. `Open the Terminal and then the Crontab:`
@@ -173,7 +173,7 @@ Click the Create button and you’re done.
 [license-shield]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/guilhermearamos/
-[product-screenshot]: img\program-img.png
+[product-screenshot]: img/program-img.png
 [VSCode-shield]:https://img.shields.io/badge/-Visual%20Studio%20Code-lightgrey.svg?logo=visual-studio-code
 [VScode-url]:https://code.visualstudio.com/docs
 [Python-shield]:https://img.shields.io/badge/-Python-9cf.svg?logo=Python
