@@ -2,7 +2,7 @@
 #   Must be run on admin/sudo mode
 #   change the hosts variable according to to the location of your Host file:
 #       Windows: rC:\Windows\System32\drivers\etc\hosts
-#       Mac/Linux:  /etc/hosts
+#       Mac/Linux: etc/hosts
 #   Add the website to be blocked on site-list.txt file
 # End of Brief Documentation #
 
@@ -11,7 +11,7 @@ import time
 from datetime import datetime as dt
 
 # Hosts variables
-hosts_path="hosts"
+hosts_path="etc/hosts"
 redirect = "127.0.0.1"
 website_list = "site-list.txt"
 
@@ -44,7 +44,7 @@ while True:
 
         # Removing the websites from the hosts file
         with open(hosts_path, 'r+') as file:
-            content = file.readlines() # Assigning the lines of the file on variable
+            content = file.readlines() # Assign the lines of the file on variable
             file.seek(0) # Moving the pointer to the first char
             with open(website_list, "r") as srcFile: # Opening website list
                 websites = [line.rstrip('\n') for line in srcFile] # Creating a list of the websites written on the file
